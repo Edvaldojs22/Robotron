@@ -1,6 +1,6 @@
-if(window.matchMedia("(max-width: 700px)").matches{
+if(window.matchMedia("(max-width: 700px)").matches){
     alert("Ainda não estamos pronto para a versão mobile 😥")
-})
+}
 
 const controle = document.querySelectorAll('[data-controle]');
 const estatistica = document.querySelectorAll('[data-estatistica]');
